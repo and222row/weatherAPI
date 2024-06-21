@@ -1,0 +1,34 @@
+.home {
+  overflow: hidden;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../imgs/imgs/bg.jpg); */
+  background-position: center;
+  background-size: cover;
+  .navbar {
+    a {
+      background-image: linear-gradient(to right, #70e549, #f77e05);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  .card-title {
+    background-image: linear-gradient(to right, #d22222, #e79898);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .photo {
+    height: 320px;
+  }
+  strong {
+    font-size: 30px;
+  }
+  .weather-time {
+    min-height: 100%;
+  }
+  .content {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+      rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+}

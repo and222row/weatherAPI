@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "pexels": "^1.4.0",
+    "unsplash-js": "^7.0.19",
+    "type": "module"
+  }
+}
