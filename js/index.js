@@ -28,7 +28,7 @@ let rndInt;
 //* get the weather from API
 async function getWeather(name) {
   let response = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=ed9691a39a254473b8404931241306&q=${name}&days=4`
+    `https://api.weatherapi.com/v1/forecast.json?key=ed9691a39a254473b8404931241306&q=${name}&days=4`
   );
   let data = await response.json();
 
